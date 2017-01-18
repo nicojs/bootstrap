@@ -120,7 +120,7 @@ describe('$uibPosition service', function () {
       });
     });
 
-    it('measures the offset with borders', function() {
+    xit('measures the offset with borders', function() {
       var outerEl = document.getElementById('outer');
       outerEl.style.width = '220px';
       outerEl.style.height = '220px';
